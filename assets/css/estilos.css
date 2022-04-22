@@ -2,16 +2,26 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-/* Hero Section */
+/* header section */
 
-#Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+#header-section {
+  background-image: url("https://i.postimg.cc/52VqKhm7/fondo-coding.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
 }
 
+/*Acerca de mi*/
+
+#Acerca-de-mi{
+  scroll-margin-top:12vh;
+}
+
 /* Mis trabajos */
+
+#Mis-trabajos {
+  scroll-margin-top: 5vh;
+}
 
 #Mis-trabajos .image-top {
   height: 250px;
@@ -20,9 +30,13 @@ body {
   background-position: center;
 }
 
-/* Contacto */
+/* Lenguajes */
 
-#Contacto form label {
+#Lenguajes {
+  scroll-margin-top:12vh;
+}
+
+#Lenguajes form label {
   font-weight: 700;
   color: #373a3c;
 }
